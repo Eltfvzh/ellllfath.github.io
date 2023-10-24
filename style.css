@@ -1,0 +1,438 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar1 .nav .list ul li{
+    display: inline-block;
+    margin: 8px;
+    margin-top: -5px;
+}
+.navbar1 .nav .list ul li a{
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    font-size: 13px;
+    font-weight: 200;
+}
+.navbar1 .nav .list ul li a img{
+    height: 20px;
+    width: auto;
+}
+
+.navbar2 .nav .list ul li{
+    display: inline-block;
+    margin: 10px;
+    margin-top: -5px;
+}
+.navbar2 .nav .list ul li a{
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    font-size: 13px;
+    font-weight: 200;
+}
+.navbar2 .nav .list ul li a img{
+    width: 25px;
+    height: auto;
+}
+.navbar2 .nav .list ul {
+    margin-left: 200px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+.navbar .navbar2{
+    display: flex;
+    flex-direction: column;
+}
+.navbar .navbar1{
+    width: 50%;
+}
+
+.content .img img{
+    width: 100%;
+    height: auto;
+}
+
+.content .img .text{
+    margin-left: 100px;
+    margin-top: -350px;
+    color: whitesmoke;
+    text-align: left;
+    width: 30%;
+    font-weight: 100;
+}
+.content .img .text h5{
+    font-weight: 100;
+}
+.content .img .h4 a{
+    margin-top: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: rgb(0, 89, 190);
+}
+.content .img .h4{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.content .img .h4 a:hover{
+    background-color: rgb(0, 76, 126);
+}
+
+.main .mainheader .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 280px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.main .mainheader .text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.main .mainheader .text a{
+    color: rgb(0, 113, 183);
+}
+.main .mainheader .text .text1{
+    padding-left: 50px;
+}
+
+.moreContent .content1 .text{
+    display: inline-block;
+}
+.moreContent .content1{
+    display: inline-block;
+    width: 250px;
+    margin-top: -30px;
+}
+.moreContent .content1 img{
+    width: 220px;
+    height: auto;
+    cursor: pointer;
+}
+.moreContent .content1 .text h5{
+    text-align: left;
+    font-weight: 300;
+}
+.moreContent .content2 .text{
+    display: inline-block;
+}
+.moreContent .content2 .text h5{
+    text-align: left;
+    font-weight: 300;
+}
+.moreContent .content2{
+    display: inline-block;
+    width: 250px;
+    margin-top: 70px;
+}
+.moreContent .content2 img{
+    width: 220px;
+    height: auto;
+    cursor: pointer;
+}
+.moreContent .content3 .text{
+    display: inline-block;
+}
+.moreContent .content3 .text h5{
+    text-align: left;
+    font-weight: 300;
+}
+.moreContent .content3{
+    display: inline-block;
+    width: 250px;
+}
+.moreContent .content3 img{
+    width: 220px;
+    height: auto;
+    cursor: pointer;
+}
+.moreContent .content4 .text{
+    display: inline-block;
+}
+.moreContent .content4 .text h5{
+    text-align: left;
+    font-weight: 300;
+}
+.moreContent .content4{
+    display: inline-block;
+    width: 250px;
+}
+.moreContent .content4 img{
+    width: 220px;
+    height: auto;
+    cursor: pointer;
+}
+.moreContent div a{
+    color: rgb(0, 76, 207);
+    text-decoration: none;
+}
+.moreContent div a:hover{
+    text-decoration: underline;
+    color: rgb(0, 44, 120);
+}
+.moreContent{
+    text-wrap: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.moreContent div{
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+}
+
+.gambar img{
+    width: 1000px;
+    height: auto;
+    justify-content: center;
+}
+.gambar{
+    align-items: center;
+}
+.gambar .text{
+    margin-left: 100px;
+    margin-top: -300px;
+    color: black;
+    text-align: left;
+    justify-content: center;
+    width: 30%;
+}
+.gambar .text h5{
+    font-weight: 300;
+}
+.gambar .link a{
+    margin-top: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 2px;
+    background-color: rgb(0, 89, 190);
+    font-size: 15px;
+}
+.gambar .link a:hover{
+    background-color: rgb(0, 44, 120);
+}
+.gambar .link{
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.k h2{
+    padding-top: 200px ;
+    margin-left: 50px;
+}
+.contentagain{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: center;
+}
+.contentagain div{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.contentagain .content1 img{
+    width: 230px;
+    height: auto;
+    cursor: pointer;
+}
+.contentagain .content1 .text{
+    text-align: left;
+}
+.contentagain .content1{
+    width: 230px;
+}
+.contentagain .content2 img{
+    width: 230px;
+    height: auto;
+    cursor: pointer;
+}
+.contentagain .content2 .text{
+    text-align: left;
+}
+.contentagain .content2{
+    width: 230px;
+}
+.contentagain .content3 img{
+    width: 230px;
+    height: auto;
+    cursor: pointer;
+}
+.contentagain .content3 .text{
+    text-align: left;
+}
+.contentagain .content3{
+    width: 230px;
+}
+.contentagain .content4 img{
+    width: 230px;
+    height: auto;
+    cursor: pointer;
+}
+.contentagain .content4 .text{
+    text-align: left;
+}
+.contentagain .content4{
+    width: 230px;
+}
+.contentagain div .text h5{
+    font-weight: 300;
+}
+.contentagain div a{
+    color: rgb(0, 76, 207);
+    text-decoration: none;
+}
+.contentagain div a:hover{
+    text-decoration: underline;
+    color: rgb(0, 64, 173);
+}
+.button button{
+    margin-top: 20px;
+    float: right;
+}
+.navbar .footer{
+    background-color: rgb(168, 168, 168);
+    color: whitesmoke;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 0;
+}
+.footer{
+    background-color: rgb(239, 239, 239);
+    color: rgb(98, 98, 98);
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 0;
+    margin-top: 100px;
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-weight: 100;
+    font-size: 12px;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.footer h3{
+    font-weight: 200;
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.footer .footer1{
+    margin-top: -30px;
+}
+.footer .footer2{
+    margin-top: -70px;
+}
+.footer .footer6{
+    margin-top: -35px;
+}
+.footer div li{
+    list-style-type: none;
+}
+.footerakhir{
+    display: flex;
+    flex-direction: row;
+}
+.morefooter1 {
+    background-color:rgb(239, 239, 239);
+}
+.morefooter1 li{
+    display: inline-block;
+}
+.morefooter1 li a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-size: 10px;
+}
+.morefooter1 li a img{
+    width: 20px;
+    height: auto;
+}
+.morefooter {
+    height: 30px;
+    margin-top: -3px;
+    text-align: end;
+    padding-right: 10px;
+    padding-left: 280px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(239, 239, 239);
+}
+.morefooter  li{
+    display: inline-block;
+    margin: 10px;
+}
+.morefooter li a, p{
+    font-size: 10px;
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+}
+.morefooter li p{
+    margin-top: 5px;
+}
+.morefooter .kanan li a{
+    padding-right: 30px;
+}
+.morefooter li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.kembali{
+    padding-top: 10px;
+}
+.kembali .text{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    background-color: rgb(199, 199, 199);
+    height: 40px;
+    width: 160px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.kembali .text .text1{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.kembali .text .text1 a{
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+}
+.kembali .text img{
+    width: 15px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
